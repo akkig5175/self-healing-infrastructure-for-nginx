@@ -1,0 +1,7 @@
+route:
+  receiver: 'autohealer'
+
+receivers:
+  - name: 'autohealer'
+    webhook_configs:
+      - url: 'http://autohealer:5000/webhook'
